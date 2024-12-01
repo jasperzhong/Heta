@@ -1,0 +1,8 @@
+[submodule "third_party/dgl"]
+	path = third_party/dgl
+	url = https://github.com/jasperzhong/dgl.git
+	branch = sam
+[submodule "third_party/graphlearn-for-pytorch"]
+	path = third_party/graphlearn-for-pytorch
+	url = https://github.com/jasperzhong/graphlearn-for-pytorch.git
+	branch = heta
