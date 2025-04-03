@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ## Repo Structure
 
-- `proof.pdf` contains the proof of the three propositions in the paper.
+- `Appendix.pdf` contains the detailed algorithm for meta-partitioning, proofs of the three propositions in the paper, and addition experiments for SeHGNNs.
 
 - `load_graph.py` contains the heterogeneous graph loader.
 - `metatree.py` and `partition_graph.py` contain the implementation of the meta-partitioning algorithm.
@@ -88,6 +88,8 @@ Enable the GPU cache in `run.sh` by setting `CACHE_METHOD` to `miss_penalty`. De
 ```bash
 ./run.sh rgcn ogbn-mag 
 ```
+
+For running SeHGNN, please first install the necessary packages (please refer to https://github.com/ICT-GIMLab/SeHGNN). Next, please refer to [README.md](https://github.com/jasperzhong/Heta/blob/main/SeHGNN/README.md).
 
 ## License
 
